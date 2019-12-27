@@ -1,6 +1,23 @@
-<!-- ECHO is on. -->
+<!-- This is a personal reference/cheat sheet. Feel free to share. -->
 
-<!-- ECHO is on. -->
+# initialising via local machine
+> mkdir mynewproject
+
+> cd mynewproject
+
+> touch > index.html
+
+> touch > app.js
+
+> touch > style.css
+
+> git init
+
+> git config --global user.name 'abeeth'
+
+> git confg --global user.email 'axs@cisi.org'
+
+> git config --global core.autocrlf true
 
 1 - navigate to folder with source files
 
