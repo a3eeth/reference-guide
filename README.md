@@ -45,3 +45,10 @@
     git commit -m "second commit to cloud"
 
     git push
+
+# grabbing from an existing project on github
+
+    git clone https://github.com/a3eeth/mynewproject.git
+
+# document git pull
+# document git merge
