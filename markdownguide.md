@@ -1,4 +1,6 @@
-use * for *italic*
+# basic text format
+### italics
+- use * for *italic*
 
 use double * for **bold**
 
