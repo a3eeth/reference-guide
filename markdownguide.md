@@ -19,30 +19,32 @@ use a greater sign followed by a space
 >
 >> this is a nested blockquote
 
+# lists 
+## unordered list
 unordered list - * + or - as marker
 * one
 * two 
 * three
 
+## ordered list
 ordered list number. or number)
 1. point
 2. point 
 3. point
 
-## links
+# links
+## inline link
 link text is enclosed in square brackets
 [text](www.google.com)
-
 inline links have URL enclosed by ()
 
 urls can be converted to links by enclosing in <>
 
-### reference style links
-[Hurricane][1] Erika was the strongest and longest-lasting tropical cyclone in the 1997 Atlantic [hurricane][1] season.
-
+## reference style links
+[Hurricane][1] Erika was the strongest and longest-lasting tropical cyclone in the 1997 Atlantic [hurricane][1] season. Both these links point at the same source.
 [1]:https://goo.gl/YEEHP0
 
-## images
+# images
 image links start with an exclamation
 ![image text](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)
 \![image text](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)
