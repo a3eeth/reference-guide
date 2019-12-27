@@ -44,3 +44,4 @@ urls can be converted to links by enclosing in <>
 ## images
 image links start with an exclamation
 ![image text](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)
+\![image text](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)
