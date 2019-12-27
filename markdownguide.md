@@ -9,14 +9,15 @@ line breaks work as normal
 > but for an extra line break \ this works 
 > you can also use two  to create a line break
 
-\# will show headers # like this
+\# will show headers 
 the more \# the smaller the ### header
 
-### blockquotes
+# blockquotes
 use a greater sign followed by a space
+
 > this is a blockquote
 >
->> this should be a nested blockquote
+>> this is a nested blockquote
 
 unordered list - * + or - as marker
 * one
