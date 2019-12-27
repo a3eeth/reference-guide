@@ -32,6 +32,14 @@ ordered list number. or number)
 2. point 
 3. point
 
+# nested lists
+
+indent sublist items by four spaces
+* item
+    1. sub item one
+    2. sub item two
+* other item
+
 # links
 ## inline link
 link text is enclosed in square brackets
@@ -47,19 +55,22 @@ urls can be converted to links by enclosing in <>
 [1]:https://goo.gl/YEEHP0
 
 # images
-image links start with an exclamation\ \ \ 
+image links start with an exclamation\
+\
 ![image text](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)
 
-\![image text](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)
+<!-- \![image text](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png) -->
 
-- ![1](https://commonmark.org/help/images/favicon.png)
+![1](https://commonmark.org/help/images/favicon.png)
 
+<!-- this needs fixing -->
 ![LOGO][1]
 [1]:https://commonmark.org/help/images/favicon.png "CC LICENSED"
 
-## code
+# code
+## wrapping inline code
 to wrap inline code use backtick 'code'
-
+## wrap code block
 code blocks use indent space x 4 or three backticks
     
     code goes here 
@@ -68,11 +79,3 @@ code blocks use indent space x 4 or three backticks
     
 
 this is regular text after code block
-
-## nested lists
-
-indent sublist items by four spaces
-* item
-    1. sub item one
-    2. sub item two
-* other item
