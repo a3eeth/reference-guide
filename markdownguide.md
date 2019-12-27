@@ -46,7 +46,18 @@ image links start with an exclamation
 ![image text](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)
 \![image text](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)
 
-- ![](https://commonmark.org/help/images/favicon.png)
+- ![1](https://commonmark.org/help/images/favicon.png)
 
 ![LOGO][1]
 [1]:https://commonmark.org/help/images/favicon.png "CC LICENSED"
+
+## code
+to wrap inline code use backtick 'code'
+
+code blocks use indent space x 4 or three backticks
+    
+    code goes here 
+
+        more code
+    
+
