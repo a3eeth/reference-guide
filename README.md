@@ -19,21 +19,19 @@
 
 > git config --global core.autocrlf true
 
-1 - navigate to folder with source files
+> git commit -m "this is the first commit"
 
-2 - git init
+## now go back to github.com
 
-3 - git add .
+### make new repository without readme or any of the bonus addons *this will take you to the setup page*
 
-4 - git status 
+## back to terminal
 
-5 - git commit -m "first commit"
+> git remote add origin https://github.com/a3eeth/mynewproject.git
 
-6 - create new repo on github
+> git remote
 
-7 - do not pick any options on the last bit which will take you to the setup screen
-
-8 - git remote add origin https://github.com/a3eeth/repo-name.git
+*if things went right this should show ```origin```*
 
 9 - git remote - this should show origin
 
