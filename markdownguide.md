@@ -45,3 +45,8 @@ urls can be converted to links by enclosing in <>
 image links start with an exclamation
 ![image text](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)
 \![image text](https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png)
+
+- ![](https://commonmark.org/help/images/favicon.png)
+
+![LOGO][1]
+[1]:https://commonmark.org/help/images/favicon.png "CC LICENSED"
