@@ -28,8 +28,15 @@ ordered list number. or number)
 2. point 
 3. point
 
-##links
+## links
 link text is enclosed in square brackets
 [text](www.google.com)
 
 inline links have URL enclosed by ()
+
+urls can be converted to links by enclosing in <>
+
+### reference style links
+[Hurricane][1] Erika was the strongest and longest-lasting tropical cyclone in the 1997 Atlantic [hurricane][1] season.
+
+[1]:https://goo.gl/YEEHP0
