@@ -27,3 +27,9 @@ ordered list number. or number)
 1. point
 2. point 
 3. point
+
+##links
+link text is enclosed in square brackets
+[text](www.google.com)
+
+inline links have URL enclosed by ()
