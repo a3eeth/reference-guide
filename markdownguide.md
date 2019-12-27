@@ -17,3 +17,12 @@ use a greater sign followed by a space
 > this is a blockquote
 >
 >> this should be a nested blockquote
+
+unordered list - * + or - as marker
+* one
+* two 
+* three
+ordered list number. or number)
+1. point
+2. point 
+3. point
