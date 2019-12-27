@@ -61,3 +61,12 @@ code blocks use indent space x 4 or three backticks
         more code
     
 
+this is regular text after code block
+
+## nested lists
+
+indent sublist items by four spaces
+* item
+    1. sub item one
+    2. sub item two
+* other item
