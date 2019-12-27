@@ -42,7 +42,7 @@ urls can be converted to links by enclosing in <>
 
 ## reference style links
 
-[Hurricane][1] Erika was the strongest and longest-lasting tropical cyclone in the 1997 Atlantic [hurricane][1] season. Both these links point at the same source.
+[Hurricane][1] Erika was the strongest and longest-lasting tropical cyclone in the 1997 Atlantic [hurricane][1] season. Both these links point at the same source. Leave a line break between the paragraph and the link source.
 
 [1]:https://goo.gl/YEEHP0
 
