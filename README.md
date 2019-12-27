@@ -1,25 +1,28 @@
 <!-- This is a personal reference/cheat sheet. Feel free to share. -->
 
 # initialising via local machine
-> mkdir mynewproject
+    mkdir mynewproject
+*creates new directory*
 
-> cd mynewproject
+    cd mynewproject
+    touch > index.html
+    touch > app.js
+    touch > style.css
+*end of setting up folders*
 
-> touch > index.html
+    git init
 
-> touch > app.js
+*this sets up the .git folder in working directory*
 
-> touch > style.css
+    git config --global user.name 'abeeth'
+    git confg --global user.email 'axs@cisi.org'
+    git config --global core.autocrlf true
 
-> git init
+*optional settings*
 
-> git config --global user.name 'abeeth'
+    git commit -m "this is the first commit"
 
-> git confg --global user.email 'axs@cisi.org'
-
-> git config --global core.autocrlf true
-
-> git commit -m "this is the first commit"
+*this is the first push to staging*
 
 ## now go back to github.com
 
@@ -27,16 +30,18 @@
 
 ## back to terminal
 
-> git remote add origin https://github.com/a3eeth/mynewproject.git
+    git remote add origin https://github.com/a3eeth/mynewproject.git
 
-> git remote
+*this links the working directory with the repository in the cloud*
+
+    git remote
 
 *if things went right this should show ```origin```*
 
-9 - git remote - this should show origin
+    git add .
 
-10 - git add .
+*this pushes all changes into staging*
 
-11 - git commit -m "second commit to cloud"
+    git commit -m "second commit to cloud"
 
-12 - git push
+    git push
