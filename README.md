@@ -40,6 +40,11 @@
 
     git add .
 
+> with node_modules this might not work - and if .gitignore.txt is being a pain to configure
+> in order to remove those files 
+
+    git rm -r --cached node_modules/
+
 *this pushes all changes into staging*
 
     git commit -m "second commit to cloud"
