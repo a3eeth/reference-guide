@@ -8,6 +8,8 @@
     touch > index.html
     touch > app.js
     touch > style.css
+    touch > .gitignore
+
 *end of setting up folders*
 
     git init
@@ -54,6 +56,28 @@
 # grabbing from an existing project on github
 
     git clone https://github.com/a3eeth/mynewproject.git
+
+# git branch - used for working parallel
+
+    git branch <branch-name>
+
+*this creates branch locally*
+
+*once necessary changes are made push to remote by*
+
+    git push -u <remote> <branch-name>
+
+*to view the branches*
+
+    git branch
+
+*OR*
+
+    git branch --list
+
+*to delete a branch*
+
+    git branch -d <branch-name>
 
 # document git pull
 # document git merge
